@@ -1,0 +1,24 @@
+input {
+  border: 1px solid #e3e1e7;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  color: #0b0935;
+  margin-right: 0;
+  font-size: 25px;
+}
+@media only screen and (max-width: 576px) {
+  input {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  input {
+    width: 35px !important;
+    height: 35px !important;
+  }
+}
+input:focus-visible {
+  outline: none;
+}
