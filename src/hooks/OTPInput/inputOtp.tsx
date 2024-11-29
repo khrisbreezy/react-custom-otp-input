@@ -8,7 +8,8 @@ const OtpInput = ({
   className,
   width,
   height,
-  size
+  size,
+  styles
 }: any) => {
   const [otp, setOtp] = useState(new Array(length).fill(''));
   const [hiddenOtp, setHiddenOtp] = useState(new Array(length).fill('')); // Array to store the masked input
@@ -136,11 +137,14 @@ const OtpInput = ({
           onKeyDown={(e: any) => handleKeyDown(e, index)}
           onPaste={index === 0 ? handlePaste : undefined} // Only attach to the first input
           style={{
+            ...styles,
             textAlign: 'center',
             width: width || 60,
             height: height || 60,
             fontSize: size || 25,
-            outline: 'none'
+            outline: 'none',
+            borderRadius: 10,
+            border: '1px solid #e3e1e7'
           }}
         />
       ))}

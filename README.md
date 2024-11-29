@@ -37,12 +37,12 @@ const Example = () => {
 |-----------------|------------------------------------------------|-------------------------------------------------------------------------|----------|
 | length          | number                                         | The number of OTP input fields to render. **Required**.                 |     6    |
 | onChangeOtp     | Function                                       | A callback function to handle the entered OTP. **Required**.            |     -    |
-| secure          | boolean                                        | Hids the entered input values                                           |   false  |
+| secure          | boolean                                        | Hides the entered input values                                          |   false  |
 | className       | string                                         | Class for each input fields                                             |     -    |
 | width           | number                                         | Width for each input fields                                             |     -    |
 | height          | number                                         | Height for each input fields                                            |     -    |
 | size            | number                                         | Font size for each input fields                                         |     -    |
-
+| styles          | string                                         | Style for each input fields                                             |     -    |
 
 ## Full example
 ```component.tsx

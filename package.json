@@ -1,7 +1,9 @@
 {
   "name": "react-custom-otp-input",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "A Reusable react custom otp (One-Time Password) input",
+  "homepage": "https://github.com/khrisbreezy/react-custom-otp-input",
+  "repository": "https://github.com/khrisbreezy/react-custom-otp-input",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -10,7 +12,13 @@
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "author": "Abolarin Oyinlola",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "otp",
+    "custom",
+    "customizable"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
