@@ -48,12 +48,6 @@ const OtpInput = ({
     onChangeOtp(newOtp.join(''));
   };
 
-  // const handleKeyDown = (e: any, index: any) => {
-  //   if (e.key === 'Backspace' && !otp[index] && index !== 0) {
-  //     inputRefs.current[index - 1].focus();
-  //   }
-  // };
-
   const handleKeyDown = (e: any, index: number) => {
     // Handle backspace to delete value and move focus to previous input
     if (e.key === 'Backspace') {
