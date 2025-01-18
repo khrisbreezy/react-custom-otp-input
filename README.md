@@ -42,7 +42,7 @@ const Example = () => {
 | width           | number                                         | Width for each input fields                                             |     -    |
 | height          | number                                         | Height for each input fields                                            |     -    |
 | size            | number                                         | Font size for each input fields                                         |     -    |
-| styles          | string                                         | Style for each input fields                                             |     -    |
+| styles          | style(object)                                  | Style for each input fields                                             |     -    |
 
 ## Full example
 ```component.tsx
