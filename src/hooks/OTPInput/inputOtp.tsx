@@ -120,7 +120,7 @@ const OtpInput = ({
         <input
           className={className}
           ref={(el:any) => (inputRefs.current[index] = el)} // Assign ref to each input
-          key={index}
+          key={index} 
           type="tel" // Keep the keyboard numeric
           inputMode="numeric" // Hint for browsers to show numeric keyboard
           pattern="\d*" // Ensure only digits are entered
@@ -131,7 +131,7 @@ const OtpInput = ({
           onKeyDown={(e: any) => handleKeyDown(e, index)}
           onPaste={index === 0 ? handlePaste : undefined} // Only attach to the first input
           style={{
-            ...styles,
+            ...styles, // Allow custom styles to be passed
             textAlign: 'center',
             width: width || 60,
             height: height || 60,
