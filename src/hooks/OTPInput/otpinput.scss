@@ -18,7 +18,6 @@ input {
   }
 
   &:focus-visible {
-    outline: none;
+    outline: none; //styling for focus state
   }
 }
-
